@@ -1,0 +1,92 @@
+/*BODY */
+body {
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* NAVBAR */
+.bg-img {
+    /* The image used */
+    background-image: url("imgs/nav2.png");
+  
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  /* NAVBAR END */
+
+  /*ROW classes*/
+.row2 {
+    padding-top: 35px;
+}
+.row3 {
+    padding-left: 55px;
+}
+.row4 {
+    padding-left: 155px;
+}
+  /*ROW END*/
+
+
+
+  /*Image classes*/
+  .img2 {
+    border: 20px solid lightgray;
+    width: 400px;
+    height: 400px;
+  }
+  .img3 {
+    border: 20px solid lightgray;
+    width: 250px;
+    height: 250px;
+  }
+  /* TEXT classes */
+  h1 {
+    font-weight: bolder;
+    font-size: 70px;
+  }
+  p2 {
+font-weight: 500;
+font-size: 20px;
+padding-left: 15px;
+  }
